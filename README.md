@@ -34,7 +34,7 @@ you will :
 <p>and solve all your productivity problems God willing</p>
 <br><br>
 
-<span color="#e96281">Notes -> My App Under Development Always For Provide You Big Things Help You In Your Productivity Work .</span>
+<span color="cadetblue">Notes /=> My App Under Development Always For Provide You Big Things Help You In Your Productivity Work .</span>
 
 ##### Thank You For Visting my repository And Reading It And Use My App .
 
