@@ -23,6 +23,7 @@ ToDo List App is a kind of app that generally used to maintain our day-to-day ta
 Via my
 <a href="https://wesam-abutuaimeh.github.io/todolist-app/html"><strong>todolist app</strong> </a>
 <img src="/media/imgs/todolist UI.jpg"></img>
+<br>
 you will :
 
 <ul>
@@ -32,6 +33,6 @@ you will :
 </ul>
 <p>and solve all your productivity problems God willing</p>
 
-##### Thank You For Viting my repository And Reading And Use My App .
+##### Thank You For Visting my repository And Reading It And Use My App .
 
 <h6 align="center">GoodLuck 🌹❤️</h6>
