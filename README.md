@@ -20,7 +20,10 @@ ToDo List App is a kind of app that generally used to maintain our day-to-day ta
 
 ### This project is a tool to Task Management in simple , quickly , Accessibility
 
-Via my <strong>todolist app</strong> you will :
+Via my
+<a href="https://wesam-abutuaimeh.github.io/todolist-app/html"><strong>todolist app</strong> </a>
+<img src="/media/imgs/todolist UI.jpg"></img>
+you will :
 
 <ul>
 <li>Enhancing your memory.</li>
@@ -28,6 +31,7 @@ Via my <strong>todolist app</strong> you will :
 <li>Helps with motivation .</li>
 </ul>
 <p>and solve all your productivity problems God willing</p>
-<img src="../todolist-app/media/imgs/todolist UI.jpg"></img>
+
 ##### Thank You For Viting my repository And Reading And Use My App .
+
 <h6 align="center">GoodLuck 🌹❤️</h6>
