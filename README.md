@@ -35,10 +35,19 @@ you will :
 <br><br>
 
 <span>Notes /=> My App Under Development Always For Provide You Big Things Help You In Your Productivity Work .</span>
+Issues That Will Be Updated Soon ...
+<br>
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] Order Task
+- [ ] Add Subtasks
+- [ ] Sharing Task With Friends Via Email
+- [ ] Add Edit Button For Edit Task
+- [ ] Sync Tasks
+- [ ] Add Dark Theme
+- [ ] Add Scroll Button Depend Condition
+- [ ] Add Dark Theme
+- [ ] Meida Query For Printing
+- [ ] Enable multii languages [EN,Ar]
 
 ##### Thank You For Visting my repository And Reading It And Use My App .
 
