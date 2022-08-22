@@ -38,6 +38,7 @@ you will :
 Issues That Will Be Updated Soon ...
 <br>
 
+- [ ] Not Add Same Task More Than One
 - [ ] Order Task
 - [ ] Add Subtasks
 - [ ] Sharing Task With Friends Via Email
