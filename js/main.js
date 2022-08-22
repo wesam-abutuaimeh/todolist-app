@@ -107,6 +107,7 @@ function addTaskToArray(taskText) {
   const task = {
     id: Date.now(),
     title: taskText,
+    hasNestedTask: false,
     done: false,
   };
   // Add Task In Array
@@ -129,12 +130,14 @@ function addElemntsIntoPage(arrayOfTasks) {
     deleteBtn.appendChild(document.createTextNode("Delete"));
     deleteBtn.style.cssText =
       "background-color: red; color: white; border: none; padding: 15px; cursor: pointer; border-radius: 6px; font-weight: bold;";
-    if (task.done) {
-      div.className = "done";
-    }
+
     // AppendChild In Page
     div.appendChild(deleteBtn);
     tasksDiv.appendChild(div);
+    // cheak if task done
+    if (task.done) {
+      div.className = "done";
+    }
   });
 }
 

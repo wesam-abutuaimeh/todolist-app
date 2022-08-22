@@ -131,14 +131,14 @@ input[type="submit"] {
   transform: translateY(-50%);
 }
 .clear-btn {
-  width: 100px;
+  width: 120px;
   height: 40px;
   font-size: 18px;
-  color: red;
+  color: white;
   text-transform: capitalize;
   font-weight: bolder;
-  background-color: #f9f9f900;
-  border: 1px solid #ff000082;
+  background-color: #e93c3b;
+  border: #ccc;
   border-radius: 6px;
   letter-spacing: 1px;
   cursor: pointer;
