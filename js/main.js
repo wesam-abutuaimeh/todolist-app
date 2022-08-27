@@ -61,20 +61,6 @@ function popupCreation() {
   }, 2000);
 }
 
-function popupCanceledCreation() {
-  let popupAdditionAlert = document.createElement("div");
-  popupAdditionAlert.style.cssText =
-    "position: absolute; top: 65px; right: 40px; background-color:#eee; color:red; width: fit-content; height:40px; line-height:0; padding:20px; text-align:center; font-size: 18px; font-weight: bolder; font-style: italic; border-radius: 6px; z-index:100;";
-  popupAdditionAlert.appendChild(
-    document.createTextNode("Task Not Completed in writing opratinon canceled")
-  );
-  document.body.appendChild(popupAdditionAlert);
-  alertAudio.play();
-  setTimeout(function () {
-    popupAdditionAlert.remove();
-  }, 2000);
-}
-
 /*
 For Enter And ESC Buttons Accessibility
 */
@@ -88,7 +74,6 @@ inputField.addEventListener("keyup", (e) => {
 inputField.addEventListener("keyup", (e) => {
   if (e.which === 27 && inputField.value.trim()) {
     inputField.value = "";
-    popupCanceledCreation();
   }
 });
 
