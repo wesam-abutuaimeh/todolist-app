@@ -29,9 +29,7 @@ submit.onclick = function () {
   }
 };
 
-/*
-For Clear All Tasks
-*/
+/* For Clear All Tasks */
 clearBtn.addEventListener("click", () => {
   let confirmAlert = confirm(
     "Be careful ⚠️ ,\nAre You Sure To Clear All Your Tasks !"
@@ -44,9 +42,7 @@ clearBtn.addEventListener("click", () => {
   }
 });
 
-/*
-popup
-*/
+/* popup */
 function popupCreation() {
   let popupAdditionAlert = document.createElement("div");
   popupAdditionAlert.style.cssText =
@@ -61,9 +57,7 @@ function popupCreation() {
   }, 2000);
 }
 
-/*
-For Enter And ESC Buttons Accessibility
-*/
+/* For Enter And ESC Buttons Accessibility */
 inputField.addEventListener("keyup", (e) => {
   if (e.which === 13 && inputField.value.trim()) {
     addTaskToArray(inputField.value);
@@ -95,11 +89,8 @@ function addTaskToArray(taskText) {
     hasNestedTask: false,
     done: false,
   };
-  // Add Task In Array
   arrayOfTasks.push(task);
-  // Add Task From Array In Page
   addElemntsIntoPage(arrayOfTasks);
-  // Add Task From Array In localStorage
   addTasksIntoLocalStorage(arrayOfTasks);
 }
 
@@ -115,11 +106,8 @@ function addElemntsIntoPage(arrayOfTasks) {
     deleteBtn.appendChild(document.createTextNode("Delete"));
     deleteBtn.style.cssText =
       "background-color: red; color: white; border: none; padding: 15px; cursor: pointer; border-radius: 6px; font-weight: bold;";
-
-    // AppendChild In Page
     div.appendChild(deleteBtn);
     tasksDiv.appendChild(div);
-    // cheak if task done
     if (task.done) {
       div.className = "done";
     }
@@ -138,13 +126,28 @@ function getTaskFromLocalStorage(arrayOfTasks) {
   }
 }
 
-tasksDiv.addEventListener("click", function (e) {
-  if (e.target.classList.contains("done")) {
-    deleteTask(e.target.parentElement.getAttribute("data-id"));
+function deleteTaskFromLocalStorage(taskId) {
+  arrayOfTasks = arrayOfTasks.filter((task) => task.id != taskId);
+  addTasksIntoLocalStorage(arrayOfTasks);
+}
+
+tasksDiv.addEventListener("click", (e) => {
+  if (e.target.classList.contains("task")) {
+    // Toggle Completed For The Task
+    checkTaskStatus(e.target.getAttribute("data-id"));
+    // Toggle Done Class
+    e.target.classList.toggle("done");
+    console.log("toggled");
   }
 });
 
-function deleteTaskFromLocalStorage(taskId) {
-  arrayOfTasks = arrayOfTasks.filter((task) => task.id != taskId);
+function checkTaskStatus(taskId) {
+  for (let i = 0; i < arrayOfTasks.length; i++) {
+    if (taskId == arrayOfTasks[i].id) {
+      arrayOfTasks[i].done == false
+        ? (arrayOfTasks[i].done = true)
+        : (arrayOfTasks[i].done = false);
+    }
+  }
   addTasksIntoLocalStorage(arrayOfTasks);
 }

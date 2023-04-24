@@ -4,37 +4,45 @@
   padding: 0;
   max-width: 100%;
 }
+
 body {
   font-family: "Cairo", sans-serif;
   height: 100vh;
   direction: ltr;
 }
+
 .container {
   margin: 0 auto;
   padding: 0px 15px;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
+
 :root {
   --main-transition: ease-in-out 0.3s;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 0;
 }
+
 /*with no background-color for scrollbar*/
 
 .header-text {
@@ -46,6 +54,7 @@ body {
   margin: 100px auto 50px;
   padding: 15px;
 }
+
 .form,
 .tasks-area {
   background-color: #f5f5f5;
@@ -56,6 +65,7 @@ body {
   padding: 20px;
   border-radius: 12px;
 }
+
 .tasks-area {
   margin: 15px auto;
   flex-direction: column;
@@ -77,6 +87,7 @@ input[type="text"] {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+
 input[type="submit"] {
   width: 100px;
   height: 40px;
@@ -94,6 +105,7 @@ input[type="submit"] {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+
 [type="submit"]:hover {
   color: white;
   background-color: red;
@@ -103,6 +115,7 @@ input[type="submit"] {
   -ms-transition: var(--main-transition);
   -o-transition: var(--main-transition);
 }
+
 .task {
   display: flex;
   justify-content: space-between;
@@ -115,11 +128,13 @@ input[type="submit"] {
   margin: 0 auto 10px;
   overflow: auto;
 }
+
 .done {
   color: #777;
   opacity: 0.5;
   position: relative;
 }
+
 .done::after {
   content: "";
   position: absolute;
@@ -130,6 +145,7 @@ input[type="submit"] {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .clear-btn {
   width: 120px;
   height: 40px;

@@ -34,22 +34,6 @@ you will :
 <p>and solve all your productivity problems God willing</p>
 <br><br>
 
-<span>Notes /=> My App Under Development Always For Provide You Big Things Help You In Your Productivity Work .</span>
-Issues That Will Be Updated Soon ...
-<br>
-
-- [ ] Not Add Same Task More Than One
-- [ ] Order Task
-- [ ] Add Subtasks
-- [ ] Sharing Task With Friends Via Email
-- [ ] Add Edit Button For Edit Task
-- [ ] Sync Tasks
-- [ ] Add Dark Theme
-- [ ] Add Scroll Button Depend Condition
-- [ ] Add Dark Theme
-- [ ] Meida Query For Printing
-- [ ] Enable multii languages [EN,Ar]
-
 ##### Thank You For Visting my repository And Reading It And Use My App .
 
 <h6 align="center">GoodLuck 🌹❤️</h6>
